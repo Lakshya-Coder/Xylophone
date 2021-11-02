@@ -15,37 +15,37 @@
         app:backgroundTint="@color/blue1"
         android:contentDescription="@string/c_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/dKey"
         style="@style/d_note_style"
         app:backgroundTint="@color/blue2"
         android:contentDescription="@string/d_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/eKey"
         style="@style/e_note_style"
         app:backgroundTint="@color/blue3"
         android:contentDescription="@string/e_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/fKey"
         style="@style/f_note_style"
         app:backgroundTint="@color/blue4"
         android:contentDescription="@string/f_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/gKey"
         style="@style/g_note_style"
         app:backgroundTint="@color/blue5"
         android:contentDescription="@string/g_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/aKey"
         style="@style/a_note_style"
         app:backgroundTint="@color/blue5"
         android:contentDescription="@string/a_key" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bKey"
         style="@style/b_note_style"
         app:backgroundTint="@color/blue6"

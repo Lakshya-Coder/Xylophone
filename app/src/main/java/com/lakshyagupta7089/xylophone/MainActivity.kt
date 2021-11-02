@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window.FEATURE_NO_TITLE
 import android.view.WindowManager
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import com.lakshyagupta7089.xylophone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -26,12 +28,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var mGSoundId5 = 0
     private var mASoundId6 = 0
     private var mBSoundId7 = 0
+    lateinit var myAnim: Animation
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        myAnim = AnimationUtils.loadAnimation(this,R.anim.bounce)
 
 //        mSoundPool = SoundPool(sim_sound, AudioManager.STREAM_MUSIC, 0)
         mSoundPool =
@@ -81,24 +86,31 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when (v?.id) {
             binding.aKey.id -> {
                 playSound(mASoundId6)
+                binding.aKey.startAnimation(myAnim)
             }
             binding.bKey.id -> {
                 playSound(mBSoundId7)
+                binding.bKey.startAnimation(myAnim)
             }
             binding.cKey.id -> {
                 playSound(mCSoundId1)
+                binding.cKey.startAnimation(myAnim)
             }
             binding.dKey.id -> {
                 playSound(mDSoundId2)
+                binding.dKey.startAnimation(myAnim)
             }
             binding.eKey.id -> {
                 playSound(mESoundId3)
+                binding.eKey.startAnimation(myAnim)
             }
             binding.fKey.id -> {
                 playSound(mFSoundId4)
+                binding.fKey.startAnimation(myAnim)
             }
             binding.gKey.id -> {
                 playSound(mGSoundId5)
+                binding.gKey.startAnimation(myAnim)
             }
         }
     }
