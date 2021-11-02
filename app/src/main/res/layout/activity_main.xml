@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="7"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cKey"
+        style="@style/c_note_style"
+        app:backgroundTint="@color/blue1"
+        android:contentDescription="@string/c_key" />
+
+    <Button
+        android:id="@+id/dKey"
+        style="@style/d_note_style"
+        app:backgroundTint="@color/blue2"
+        android:contentDescription="@string/d_key" />
+
+    <Button
+        android:id="@+id/eKey"
+        style="@style/e_note_style"
+        app:backgroundTint="@color/blue3"
+        android:contentDescription="@string/e_key" />
+
+    <Button
+        android:id="@+id/fKey"
+        style="@style/f_note_style"
+        app:backgroundTint="@color/blue4"
+        android:contentDescription="@string/f_key" />
+
+    <Button
+        android:id="@+id/gKey"
+        style="@style/g_note_style"
+        app:backgroundTint="@color/blue5"
+        android:contentDescription="@string/g_key" />
+
+    <Button
+        android:id="@+id/aKey"
+        style="@style/a_note_style"
+        app:backgroundTint="@color/blue5"
+        android:contentDescription="@string/a_key" />
+
+    <Button
+        android:id="@+id/bKey"
+        style="@style/b_note_style"
+        app:backgroundTint="@color/blue6"
+        android:contentDescription="@string/b_key" />
+
+</LinearLayout>

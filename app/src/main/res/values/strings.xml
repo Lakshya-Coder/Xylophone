@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Xylophone</string>
+    <string name="c_key">C key</string>
+    <string name="d_key">D key</string>
+    <string name="g_key">G key</string>
+    <string name="a_key">A key</string>
+    <string name="f_key">F key</string>
+    <string name="b_key">B key</string>
+    <string name="e_key">E key</string>
+</resources>

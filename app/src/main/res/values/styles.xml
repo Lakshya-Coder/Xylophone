@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="c_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="d_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="e_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="f_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="g_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="a_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/custom_bg</item>
+    </style>
+
+    <style name="b_note_style" parent="android:Widget.KeyboardView">
+        <item name="android:background">@drawable/custom_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>
